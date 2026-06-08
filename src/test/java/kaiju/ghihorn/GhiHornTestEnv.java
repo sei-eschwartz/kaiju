@@ -293,6 +293,7 @@ public class GhiHornTestEnv {
 
     }
 
+    @SuppressWarnings("removal")
     public Program importTestProgram(File exe) throws CancelledException, DuplicateNameException, InvalidNameException, VersionException, IOException {
 
         // Import the program

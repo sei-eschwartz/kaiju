@@ -51,6 +51,7 @@ class OOAnalyzerTest extends AbstractGhidraHeadedIntegrationTest {
     OOAnalyzerTest() throws Exception {
     }
 
+    @SuppressWarnings("removal")
     public void doTest(Path exe, Path json, Boolean useNs) throws Exception {
         env = new TestEnv();
         setErrorGUIEnabled(false);
